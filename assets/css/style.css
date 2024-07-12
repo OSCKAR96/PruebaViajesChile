@@ -19,6 +19,7 @@ body{
 
 .margen-parrafo{
     margin-left: 100px;
+    margin-right: 100px;
 }
 
 .justificarp{
@@ -30,5 +31,20 @@ body{
     font-size: 2rem;
     text-align: center;
     background: black;
-
 }
+
+.tamaño img{
+    height: 200px;
+}
+
+.tamaño {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.fondo-container{
+    background: #5a1723;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
