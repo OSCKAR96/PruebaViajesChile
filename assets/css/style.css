@@ -1,0 +1,34 @@
+body{
+
+}
+
+.navbar-custom{
+    background: transparent;
+}
+
+.navbar-brand{
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    object-fit: contain;
+}
+
+.fondo-container{
+    background: #5a1787;
+}
+
+.margen-parrafo{
+    margin-left: 100px;
+}
+
+.justificarp{
+    text-align: justify;
+    font-size: 0.8rem;
+}
+
+.justificarp i{
+    font-size: 2rem;
+    text-align: center;
+    background: black;
+
+}
