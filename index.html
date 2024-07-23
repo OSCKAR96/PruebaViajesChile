@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- link para agregar iconos desde font awesome -->
     <script src="https://kit.fontawesome.com/7b75e7f5c9.js" crossorigin="anonymous"></script>
+    <!-- conexion a js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 
 
 </head>
@@ -37,10 +40,10 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#footer">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Quienes Somos</a>
+                                <a class="nav-link text-white" href="#informativo">Quienes Somos</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="#">Destacados</a>
@@ -77,8 +80,8 @@
         <!-- termino del navbar
          comienzo del informativo -->
         <div>
-            <section class="container fondo-container">
-                <h1 class="text-white text-center p-3">¿QUIENES SOMOS?</h1>
+            <section class="container fondo-container" id="informativo" >
+                <h1 class="text-white text-center p-3 titulo">¿QUIENES SOMOS?</h1>
                 <div class="row margen-parrafo pt-2">
                     <div class="col-12 col-sm-4 text-white">
                         <div class="justificarp">
@@ -174,8 +177,8 @@
             </section>
         </div>
         <!-- termino de cards -->
-         <!-- comienzo de form -->
-        <div class="container fondo-container">
+        <!-- comienzo de form -->
+        <div class="container fondo-container" id="formulario" >
             <section class="tamaño">
                 <div>
                     <h1 class="text-white text-center"> CONTACTO </h1>
@@ -193,12 +196,12 @@
                     <label for="exampleFormControlTextarea1" class="form-label text-white"> Dejanos tu mensaje </label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <input class="btn btn-custom" type="submit" value="Enviar">
+                <input class="btn btn-custom" id="mensaje" type="submit" value="Enviar">
             </section>
         </div>
         <!-- termino de form -->
         <div>
-            <footer class="fs-2 text-white py-4">
+            <footer class="fs-2 text-white py-4" id="footer">
                 <p class="tamaño2">Viajes Chile</p>
                 <span class="tamaño2">
                     <i class="fa-brands fa-instagram"></i>
@@ -217,6 +220,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
